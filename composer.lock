@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6c0d154127cb131fb923ba9f4e90536d",
+    "content-hash": "1b66334d5988cfac5aca8579effa1b9c",
     "packages": [
         {
             "name": "assetic/framework",
@@ -6585,6 +6585,64 @@
                 }
             ],
             "time": "2026-02-20T09:01:39+00:00"
+        },
+        {
+            "name": "winter/wn-seo-plugin",
+            "version": "v1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wintercms/wn-seo-plugin.git",
+                "reference": "f680b6422167862bd921f4093665d2b2fb6716d9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wintercms/wn-seo-plugin/zipball/f680b6422167862bd921f4093665d2b2fb6716d9",
+                "reference": "f680b6422167862bd921f4093665d2b2fb6716d9",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.11",
+                "php": ">=7.2"
+            },
+            "type": "winter-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Luke Towers",
+                    "email": "wintercms@luketowers.ca"
+                },
+                {
+                    "name": "Winter CMS Maintainers",
+                    "homepage": "https://wintercms.com",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "Winter CMS plugin for managing SEO tags",
+            "homepage": "https://github.com/wintercms/wn-seo-plugin",
+            "keywords": [
+                "cms",
+                "seo",
+                "wintercms"
+            ],
+            "support": {
+                "discord": "https://discord.gg/D5MFSPH6Ux",
+                "issues": "https://github.com/wintercms/wn-seo-plugin/issues",
+                "source": "https://github.com/wintercms/wn-seo-plugin"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/wintercms",
+                    "type": "github"
+                },
+                {
+                    "url": "https://opencollective.com/wintercms",
+                    "type": "open_collective"
+                }
+            ],
+            "time": "2026-03-22T05:01:59+00:00"
         },
         {
             "name": "winter/wn-system-module",
